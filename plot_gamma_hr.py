@@ -57,7 +57,7 @@ for dataset, ax in zip(datasets, axes):
     ax.set_title(dataset)
     ax.set_xticks(hr_range)
     # ax.set_yticks(acc_range)
-    ax.set_xlabel("epsilon")
+    ax.set_xlabel("adversary feature ratio")
     ax.set_ylabel("gamma")
 
     ax.plot(hr_range, gamma_appr_list, label="v'_tar", color="blueviolet", marker='.')
