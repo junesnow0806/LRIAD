@@ -1,4 +1,4 @@
-checkpoints/
-data/
-statistics/
+checkpoints/*
+data/*
+statistics/*
 **/__pycache__
